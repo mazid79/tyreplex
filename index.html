@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TyrePlex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand d-flex align-items-center position-relative" href="#">
+            <img src="tyre-logo.png" alt="TyrePlex Logo" class="logo position-absolute">
+            <span class="custom-brand">
+                <span class="tyre-text">Tyre</span>
+                <span class="plex-text">Plex</span>
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Car Types</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bike Tyres</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tyre Pressure</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Commercial Tyre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Accessories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">More</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="bi bi-box-arrow-in-right"></i> Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section position-relative">
+        <img src="tyre-logo.png" alt="TyrePlex Logo" class="hero-logo">
+        <div class="hero-overlay"></div>
+        <div class="container text-right hero-content">
+            <h2 class="sub-heading">We provide a</h2>
+            <h1 class="display-4 font-weight-bold">Over 500 tire tests to ensure you get the perfect tire for your vehicle.</h1>
+            <p class="lead">Introducing Tires & Wheels online store. Real-world, independent tire tests in snow, ice, wet, and dry conditions so you’ll know exactly how they’ll perform on the road. Whatever your budget and whatever the size of the car you are looking for, we are sure we can help you find what’s right for you.</p>
+            <a href="#" class="btn btn-hero mt-4">Explore Now</a>
+        </div>
+    </div>
+
+    <!-- Main Content - Carousel -->
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="car-and-tyre.jpg" class="d-block w-100" alt="Tire Image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4 text-uppercase font-weight-bold">Find Wheels & Tyres</h2>
+                    <p class="lead text-uppercase">For all vehicle types</p>
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-warning mx-2 text-uppercase">Winter Tyres</a>
+                        <a href="#" class="btn btn-warning mx-2 text-uppercase">Summer Tyres</a>
+                        <a href="#" class="btn btn-warning mx-2 text-uppercase">All Seasons</a>
+                        <a href="#" class="btn btn-warning mx-2 text-uppercase">Sport Tyres</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- New Arrivals Products Grid Section -->
+    <div class="container new-arrivals mt-5" style="background-color: black; padding: 30px;">
+        <h2 class="text-center mb-1" style="color: #f78906; font-family: Roboto;">New Arrivals Products</h2>
+        <h3 class="our-latest-products text-center mb-4">Our Latest Products</h3>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-3">
+                <div class="product-card text-center">
+                    <img src="tyregrid1.png" alt="Tyre 1" class="img-fluid">
+                    <h5 class="text-white mt-3">Tyre Model X1</h5>
+                    <p class="text-warning">$199.99</p>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-3">
+                <div class="product-card text-center">
+                    <img src="tyregrid2.png" alt="Tyre 2" class="img-fluid">
+                    <h5 class="text-white mt-3">Tyre Model X2</h5>
+                    <p class="text-warning">$249.99</p>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-3">
+                <div class="product-card text-center">
+                    <img src="tyregrid3.png" alt="Tyre 3" class="img-fluid">
+                    <h5 class="text-white mt-3">Tyre Model X3</h5>
+                    <p class="text-warning">$299.99</p>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-3">
+                <div class="product-card text-center">
+                    <img src="tyregrid4.png" alt="Tyre 4" class="img-fluid">
+                    <h5 class="text-white mt-3">Tyre Model X4</h5>
+                    <p class="text-warning">$349.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features-section mt-5 position-relative" style="background-image: url('mechanicbg.jpg'); background-size: cover; background-position: right; padding: 60px 0;">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-item mb-4">
+                        <i class="bi bi-wrench-adjustable-circle-fill icon-feature"></i>
+                        <h4 class="feature-title">State of the Art Mounting</h4>
+                        <p>Whatever your budget and whatever the size of car you are looking for, we are sure we can help you find what’s right for you. To fully appreciate the range of cars we have on offer please visit one of our showrooms.</p>
+                    </div>
+                    <div class="feature-item mb-4">
+                        <i class="bi bi-shield-check icon-feature"></i>
+                        <h4 class="feature-title">100% Guaranteed Fitment</h4>
+                        <p>Whatever your budget and whatever the size of car you are looking for, we are sure we can help you find what’s right for you. To fully appreciate the range of cars we have on offer please visit one of our showrooms.</p>
+                    </div>
+                    <div class="feature-item mb-4">
+                        <i class="bi bi-truck icon-feature"></i>
+                        <h4 class="feature-title">Fast and Hassle-free Shipping</h4>
+                        <p>Whatever your budget and whatever the size of car you are looking for, we are sure we can help you find what’s right for you. To fully appreciate the range of cars we have on offer please visit one of our showrooms.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="bi bi-star-fill icon-feature"></i>
+                        <h4 class="feature-title">We're Tire Experts</h4>
+                        <p>Whatever your budget and whatever the size of car you are looking for, we are sure we can help you find what’s right for you. To fully appreciate the range of cars we have on offer please visit one of our showrooms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Experts Section -->
+    <section id="experts" class="experts-section">
+        <div class="container">
+        <h2>The Experts</h2>
+        <div class="video-demo">
+            <!-- Add your video demo here -->
+            <video controls>
+            <source src="ad.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="journal">
+            <h3>The Journal</h3>
+            <div class="blog-post">
+            <h4>Who To Choose The Right Tires</h4>
+            <p>September 19, 2024</p>
+            </div>
+            <div class="blog-post">
+            <h4>Say hello to our new works</h4>
+            <p>March 24, 2024</p>
+            </div>
+            <div class="blog-post">
+            <h4>Gallery of awesome people</h4>
+            <p>June 23, 2024</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2>Executive Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                <img src="formal1.jpg" alt="Aleen Valzac">
+                <h3>Aleen Valzac</h3>
+                <p>CEO<br>Europan lingues es membres del sam familie. Lor separat existentie</p>
+                <div class="social-links">
+                    <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                </div>
+                <div class="team-member">
+                <img src="formal2.jpg" alt="Alex Joan">
+                <h3>Alex Joan</h3>
+                <p>Project Manager<br>Europan lingues es membres del sam familie. Lor separat existentie</p>
+                <div class="social-links">
+                    <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                </div>
+                <div class="team-member">
+                <img src="formal3.jpg" alt="John Harris">
+                <h3>John Harris</h3>
+                <p>Product Manager<br>Europan lingues es membres del sam familie. Lor separat existentie</p>
+                <div class="social-links">
+                    <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                </div>
+                <!-- Add more team members as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="team-grid">
+                <div class="team-member">
+                <img src="formal6.jpg" alt="Aleen Valzac">
+                <h3>Aleen Valzac</h3>
+                <p>CEO<br>Europan lingues es membres del sam familie. Lor separat existentie</p>
+                <div class="social-links">
+                    <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                </div>
+                <div class="team-member">
+                <img src="formal5.jpg" alt="Alex Joan">
+                <h3>Alex Joan</h3>
+                <p>Project Manager<br>Europan lingues es membres del sam familie. Lor separat existentie</p>
+                <div class="social-links">
+                    <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                </div>
+                <div class="team-member">
+                <img src="formal4.jpg" alt="John Harris">
+                <h3>John Harris</h3>
+                <p>Product Manager<br>Europan lingues es membres del sam familie. Lor separat existentie</p>
+                <div class="social-links">
+                    <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                </div>
+                <!-- Add more team members as needed -->
+            </div>
+        </div>
+    </section>
+  
+  
+
+    <!-- Footer -->
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="tyre-logo.png" alt="TyrePlex Logo">
+        </div>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Get in Touch</h3>
+                <p>Phone: +1 123 457 653</p>
+                <p>Fax: +1 496 457 654</p>
+                <p>Email: our-mail@example.com</p>
+                <p>Address: 121 abcdef, NewDelhi 3000 India</p>
+            </div>
+
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Sign up for our newsletter</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="EMAIL ADDRESS" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 TyrePlex. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
